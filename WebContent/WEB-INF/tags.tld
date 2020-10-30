@@ -1,0 +1,43 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>date</short-name>
+
+	<tag>
+		<name>print-date</name>
+		<tag-class>tags.DateTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+	<tag>
+		<name>check-login</name>
+		<tag-class>tags.LoginTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>footer-products</name>
+		<tag-class>tags.FooterProducts</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>footer-category</name>
+		<tag-class>tags.FooterCategory</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>print-products</name>
+		<tag-class>tags.PrintPTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>print-category</name>
+		<tag-class>tags.PrintCTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+
+</taglib>
